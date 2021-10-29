@@ -15,7 +15,7 @@ Reposistory at: https://github.com/SterlingW56/Holiday-History-Map
 
 ### Wireframe Desktop
 
-![App Screenshot](./assets/images/snapshot.png)
+![App Screenshot](./assets/images/wire-frame-desktop.png)
 
 ### Wireframe Mobile
 
