@@ -1,10 +1,25 @@
+var mexicoBtn = document.getElementById("mexico").addEventListener("click", function(){
 
-fetch('https://api.openweathermap.org/data/2.5/weather?q=portland&appid=f82224f6-9d92-48c9-9d36-426be23071ff')
-.then(function(res){return res.json()})
-//.then(function(data){console.log(data)})
-//.catch(function(err){console.log(err)})
-.then(function(weatherResponse){
-    var cityNameEl = document.querySelector(".city-name");
-    cityNameEl.textContent = weatherResponse.name;
+    console.log("mexico clicked")
+    fetch('https://date.nager.at/api/v3/publicholidays/2022/MX').then(function(response) {
+        response.json().then(function(data) {
+        console.log(data)
 
+        })
+    })
+
+
+// fetch('https://date.nager.at/api/v3/publicholidays/2022/MX')
+// .then(function(res){return res.json()})
+// .then(function(data){
+//     console.log(data)
+//     // var holidayEl = document.querySelector(".country-name");
+//     //  weatherResponse.name;
+
+// })
 })
+    
+
+
+
+
