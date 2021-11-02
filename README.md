@@ -20,3 +20,13 @@ Reposistory at: https://github.com/SterlingW56/Holiday-History-Map
 ### Wireframe Mobile
 
 ![App Screenshot](./assets/images/snapshot.png)
+
+#### Colors 
+
+Orange #883808
+
+Black #040404
+
+Brown #61371b
+
+Grey #6a5a5c
