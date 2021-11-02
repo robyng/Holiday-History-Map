@@ -1,3 +1,3 @@
-fetch('https://date.nager.at/api/v3/publicholidays/2017/AT')
+fetch('')
   .then(response => response.json())
   .then(data => console.log(data));
