@@ -10,6 +10,13 @@ Deployed at: https://sterlingw56.github.io/Holiday-History-Map/
 
 Reposistory at: https://github.com/SterlingW56/Holiday-History-Map 
 
+### APIs used
+Public Holiday by API Guy
+https://rapidapi.com/theapiguy/api/public-holiday/ 
+
+Youtube v3 by ytdlfree
+https://rapidapi.com/ytdlfree/api/youtube-v31/ 
+
 ### Screenshot
 ![App Screenshot](./assets/images/snapshot.png)
 
