@@ -18,15 +18,11 @@ Youtube v3 by ytdlfree
 https://rapidapi.com/ytdlfree/api/youtube-v31/ 
 
 ### Screenshot
-![App Screenshot](./assets/images/snapshot.png)
+![App Screenshot](./assets/images/holiday-screenshot.png)
 
 ### Wireframe Desktop
 
 ![App Screenshot](./assets/images/wire-frame-desktop.png)
-
-### Wireframe Mobile
-
-![App Screenshot](./assets/images/snapshot.png)
 
 #### Colors 
 
