@@ -1,6 +1,8 @@
 var countryList = document.querySelector(".country-list").addEventListener("click", function(event){
     countryCodeId = event.target.id
     console.log(countryCodeId)
+    var holidayListEl = document.querySelector(".holiday-list")
+    holidayListEl.textContent = " "
 
 
     // start public holiday fetch
