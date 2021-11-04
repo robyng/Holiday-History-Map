@@ -58,20 +58,28 @@ createVidCol()
         ///start
         var createCol = function(){
 
-        var holidayListEl = document.querySelector(".holiday-list")
-        
-        
-        holidayListEl.innerHTML+=`
+            for (i = 0; i < data.length; i++) {
+                
 
-            <li><span class="local-name"></span> </li>`
+
+                var holidayListEl = document.querySelector(".holiday-list")
         
         
+                holidayListEl.innerHTML+=`
         
-        
-        var localNameEl = document.querySelector('.local-name')
-        localNameEl.textContent = data[0].localName
-        console.log(data.length)
-        
+                    <li><span class="local-name-${i}"></span> </li>`
+                
+                
+                
+                
+                var localNameEl = document.querySelector('.local-name-' + i)
+                localNameEl.textContent = data[i].localName
+                console.log(data.length)
+                
+                
+            }
+
+
         
         
         
