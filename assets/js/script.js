@@ -28,9 +28,11 @@ var createVidCol = function(){
         ` 
     var videoListEl = document.querySelector('.video')
     videoListEl.textContent = data.items[0].snippet.title
+
+    var videoId = data.items[0].id.videoId
     
     var iframeEl = document.querySelector('.iframe')
-    iframeEl.innerHTML+= `<iframe class="resp-iframe" src="https://www.youtube.com/embed/jK-YFggBdGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    iframeEl.innerHTML+= `<iframe class="resp-iframe" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 }
 createVidCol()
     
