@@ -67,21 +67,24 @@ createVidCol()
         
                 holidayListEl.innerHTML+=`
         
-                    <li><span class="local-name-${i}"></span> </li>`
-                
-                
-                
+                    <li><span class="local-name-${i}"></span> </li>
+                    <li><span class="en-name-${i}"></span></li>
+                    <li><span class="holiday-date-${i}"></span></li>
+                    <button class="vid-btn-${i}">See Videos</button>
+                    <br />
+                    <br />`
+                    
                 
                 var localNameEl = document.querySelector('.local-name-' + i)
                 localNameEl.textContent = data[i].localName
-                console.log(data.length)
                 
+                var enName = document.querySelector('.en-name-' + i)
+                enName.textContent = data[i].name
+
+                var holidayDate = document.querySelector('.holiday-date-' + i)
+                holidayDate.textContent = data[i].date
                 
             }
-
-
-        
-        
         
         }
         createCol()
