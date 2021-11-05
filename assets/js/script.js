@@ -17,16 +17,17 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
         {response.json()
         .then(function(data) {
         console.log(data)
-        ///start
+
+        /// start createCol() for Holiday List column
         var createCol = function(){
 
             for (i = 0; i < data.length; i++) {
                 
 
-
                 var holidayListEl = document.querySelector(".holiday-list")
-        
-        
+                // always have vars above where you use them        
+                var youtubeEnName = data[i].name
+
                 holidayListEl.innerHTML+=`
                         <div class="holiday-info-${i}">
                         <li><span class="local-name-${i}"></span> </li>
@@ -45,7 +46,7 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
                 
                 var enName = document.querySelector('.en-name-' + i)
                 enName.textContent = data[i].name
-                var youtubeEnName = data[i].name
+
 
                 var holidayDate = document.querySelector('.holiday-date-' + i)
                 holidayDate.textContent = data[i].date
