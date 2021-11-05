@@ -1,6 +1,5 @@
 var countryList = document.querySelector(".country-list").addEventListener("click", function(event){
     countryCodeId = event.target.id
-    console.log(countryCodeId)
     var holidayListEl = document.querySelector(".holiday-list")
     holidayListEl.textContent = " "
 
@@ -29,13 +28,16 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
         
         
                 holidayListEl.innerHTML+=`
-        
-                    <li><span class="local-name-${i}"></span> </li>
-                    <li><span class="en-name-${i}"></span></li>
-                    <li><span class="holiday-date-${i}"></span></li>
-                    <button class="vid-btn-${i}">See Videos</button>
-                    <br />
-                    <br />`
+                        <div class="holiday-info-${i}">
+                        <li><span class="local-name-${i}"></span> </li>
+                        <li><span class="en-name-${i}"></span></li>
+                        <li><span class="holiday-date-${i}"></span></li>
+                        <button id="btn-name-${i}" name="${youtubeEnName}" class="vid-btn-${i}">See Videos</button>
+                        <br />
+                        <br />
+                    </div>
+                    `
+                    
                     
                 
                 var localNameEl = document.querySelector('.local-name-' + i)
@@ -43,11 +45,31 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
                 
                 var enName = document.querySelector('.en-name-' + i)
                 enName.textContent = data[i].name
+                var youtubeEnName = data[i].name
 
                 var holidayDate = document.querySelector('.holiday-date-' + i)
                 holidayDate.textContent = data[i].date
+
+                // var btnIdEnName = document.querySelector('#en-name-' + i)
+                // btnIdEnName.textContent = data[i].name
+
+
                 
             }
+
+                            // start onclick for holidaybtn div
+
+                            var holidayBtnWrapper = document.querySelector("#holiday-btn-wrapper").addEventListener("click", function(event){
+                                holidayBtnId = event.target.id
+
+                                var btnName = event.target.name
+
+                                console.log(holidayBtnId)
+                                console.log(event.target.name)
+            
+                                
+                               
+                            })
         
         }
         createCol()
@@ -86,7 +108,7 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
 
 
 
-//     // end mexicao new years fetch
+//     // end mexico new years fetch
 
 //     // start creat column list for video content
 //     var createVidCol = function(){
