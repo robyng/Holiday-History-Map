@@ -12,22 +12,30 @@
 <body class="has-text-white">
     <header class="container is-justify-content-center"> 
         <h1 class = "title is-1 has-text-centered section has-text-white">
-            Holiday History Map!
+            World Holidays
         </h1>
+        <h2 class="title is-4 has-text-centered has-text-white">Learn about public holidays around the world with YouTube</h2>
     </header>
 
-    <div class = "country-list section">
+    <div class = "country-list section columns">
         <div class="section column">
             <h2 class ="title has-text-white">
-                Country List
+                Pick a Country
             </h2>
+       
     
             <button id="CA" value="Canada" class="button is-info">Canada</button>
             <button id="MX" value="Mexico" class="button is-info">Mexico</button>
             <button id="US" value="United States" class="button is-info">United States</button>
-
-
         </div>
+
+            <div class="column section">
+                <h2 class = "title has-text-white">
+                    Recently Picked Holidays
+                </h2>
+                <div class = "recent-holiday-picks"></div>
+            </div>
+    </div>
 
     </div>
     <div class="columns section">
@@ -46,8 +54,8 @@
 
         <div class = "about-holiday section column">
 
-            <h2 class = "title has-text-white">
-                About This Holiday
+            <h2 class = "title has-text-white about-this-holiday">
+                
             </h2>
             <div>
                 <ul class="video-list"></ul>
