@@ -1,11 +1,16 @@
 var countryList = document.querySelector(".country-list").addEventListener("click", function(event){
+
+    // countryCodeId is MX or CA or US, the button ids for each country
     countryCodeId = event.target.id
     var holidayListEl = document.querySelector(".holiday-list")
+    
+    var countryFullName = event.target.value
+    console.log(countryFullName)
+
+    //clear holiday list of previous content when clicked again
     holidayListEl.textContent = " "
 
-
-    // start public holiday fetch
-    
+    // start public holiday fetch plus countryCodeId 
     fetch("https://public-holiday.p.rapidapi.com/2022/" + countryCodeId, {
         "method": "GET",
         "headers": {
