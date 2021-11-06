@@ -8,7 +8,7 @@ function savesPopulate() {
 
     for (i=0; i < savedList.length; i++) {
 
-      recentSaves.innerHTML +=  `<button class="button is-link" value="${savedList[i].country}" name="${savedList[i].holiday}" id="${savedList[i].id}">${savedList[i].country}: ${savedList[i].holiday}</button> `
+      recentSaves.innerHTML +=  `<a href="#jump-to-video"><button class="button is-link" value="${savedList[i].country}" name="${savedList[i].holiday}" id="${savedList[i].id}">${savedList[i].country}: ${savedList[i].holiday}</button></a> `
     }
 
 }
