@@ -202,7 +202,7 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
                         <li><span class="local-name-${i}"></span> </li>
                         <li><span class="en-name-${i}"></span></li>
                         <li><span class="holiday-date-${i}"></span></li>
-                        <button id="${countryCodeId}" value="${countryFullName}" name="${youtubeEnName}" class="button is-success">See Videos</button>
+                        <a href="/#jump-to-video"><button id="${countryCodeId}" value="${countryFullName}" name="${youtubeEnName}" class="button is-success">See Videos</button></a>
                         <br />
                         <br />
                     </div>
