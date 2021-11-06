@@ -8,7 +8,7 @@ function savesPopulate() {
 
     for (i=0; i < savedList.length; i++) {
 
-      recentSaves.innerHTML +=  `<button value="${savedList[i].country}" name="${savedList[i].holiday}" id="${savedList[i].id}">${savedList[i].country}: ${savedList[i].holiday}</button>`
+      recentSaves.innerHTML +=  `<button class="button is-link" value="${savedList[i].country}" name="${savedList[i].holiday}" id="${savedList[i].id}">${savedList[i].country}: ${savedList[i].holiday}</button> `
     }
 
 }
@@ -202,7 +202,7 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
                         <li><span class="local-name-${i}"></span> </li>
                         <li><span class="en-name-${i}"></span></li>
                         <li><span class="holiday-date-${i}"></span></li>
-                        <button id="btn-name-${i}" value="${countryFullName}" name="${youtubeEnName}" class="${countryCodeId}">See Videos</button>
+                        <button id="${countryCodeId}" value="${countryFullName}" name="${youtubeEnName}" class="button is-success">See Videos</button>
                         <br />
                         <br />
                     </div>
