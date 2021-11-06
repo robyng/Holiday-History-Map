@@ -89,6 +89,9 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
         
                                 // start create column list for video content
                                 var createVidCol = function(){
+
+                                var aboutHolidayTitle = document.querySelector(".about-this-holiday")
+                                aboutHolidayTitle.textContent = "Videos About " + btnName     
         
                                 var videoListEl = document.querySelector(".video-list")
                                 
