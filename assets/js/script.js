@@ -66,7 +66,7 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
                         var btnName = event.target.name
 
 
-
+                        
                         console.log(holidayBtnVal + " is var holidayBtnVal")
                         console.log(btnName + " is var btnName")
 
@@ -89,7 +89,13 @@ var countryList = document.querySelector(".country-list").addEventListener("clic
         
                                 // start create column list for video content
                                 var createVidCol = function(){
+                                
+                                // add localstorage
+                                localStorage.setItem('Country', holidayBtnVal)
+                                localStorage.setItem('Holiday', btnName) 
+                                //localStorage.setItem("Youtube Search", "")   
 
+                                // add text to title area above video list    
                                 var aboutHolidayTitle = document.querySelector(".about-this-holiday")
                                 aboutHolidayTitle.textContent = "Videos About " + btnName     
         
