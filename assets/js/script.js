@@ -46,7 +46,7 @@ recentSaves.addEventListener("click",function(event){
     
                                 // add text to title area above video list    
                                 var aboutHolidayTitle = document.querySelector(".about-this-holiday")
-                                aboutHolidayTitle.textContent = "Videos About " + btnName
+                                aboutHolidayTitle.textContent = "Video About " + btnName
     
                                 var videoListEl = document.querySelector(".video-list")
     
