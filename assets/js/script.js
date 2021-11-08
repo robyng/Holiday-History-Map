@@ -158,7 +158,6 @@ document.querySelector("#holiday-btn-wrapper").addEventListener("click", functio
 
 
 
-
 var countryList = document.querySelector(".country-list").addEventListener("click", function (event) {
 
     // countryCodeId is MX or CA or US, the button ids for each country
