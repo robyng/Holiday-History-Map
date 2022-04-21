@@ -6,11 +6,14 @@ As borders open up and traveling restriction are lifted, you may be thinking abo
 Then search for the country you are traveling to, say Mexico, and learn about the local holidays that may be happening while you are there. Traveling at the end of October to Mexico? Learn about Dia De Los Muertos. This app helps educate yourself on local customs and history, AND helps you plan your next vaction based on your local holidays.
 
 ### Links
-Deployed at: https://sterlingw56.github.io/Holiday-History-Map/
+Deployed at: https://robyng.github.io/Holiday-History-Map/
 
-Reposistory at: https://github.com/SterlingW56/Holiday-History-Map 
+Reposistory at: https://github.com/robyng/Holiday-History-Map 
 
-### APIs used
+### Technologies Used
+
+
+* API's from:
 Public Holiday by API Guy
 https://rapidapi.com/theapiguy/api/public-holiday/ 
 
