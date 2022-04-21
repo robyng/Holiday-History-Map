@@ -11,13 +11,13 @@ Deployed at: https://robyng.github.io/Holiday-History-Map/
 Reposistory at: https://github.com/robyng/Holiday-History-Map 
 
 ### Technologies Used
-
-
+* Bulma CSS Framework
+* HTML and Javascript
+* Fetch API
 * API's from:
-Public Holiday by API Guy
+  * Public Holiday by API Guy
 https://rapidapi.com/theapiguy/api/public-holiday/ 
-
-Youtube v3 by ytdlfree
+  * Youtube v3 by ytdlfree
 https://rapidapi.com/ytdlfree/api/youtube-v31/ 
 
 ### Screenshot
