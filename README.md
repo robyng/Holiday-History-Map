@@ -3,7 +3,7 @@
 ## Description
 As borders open up and traveling restriction are lifted, you may be thinking about planning your next vacation. Use Holiday History Map app to search the United States holiday dates in 2022 to see when you can buy plane tickets for your trip. 
 
-Then search for the country you are traveling to, say Mexico, and learn about the local holidays that may be happening while you are there. Traveling at the end of October to Mexico? Learn about Dia De Los Muertos. This app helps educate yourself on local customs and history, AND helps you plan your next vaction based on your local holidays.
+Then search for the country you are traveling to and learn about the local holidays that may be happening while you are there. This app helps educate yourself on local customs and history, AND helps you plan your next vaction based on your local holidays.
 
 ### Links
 Deployed at: https://robyng.github.io/Holiday-History-Map/
